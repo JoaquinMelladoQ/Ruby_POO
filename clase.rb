@@ -8,4 +8,13 @@ end
 primera_mascota = Mascota.new('Spike')
 # puts primera_mascota.nombre
 
+class Casa
+    def initialize(pisos = 1)
+        @pisos = pisos
+    end
+end
 
+casa1 = Casa.new
+casa2_pisos = Casa.new(2)
+
+# puts casa2_pisos
